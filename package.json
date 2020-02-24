@@ -1,0 +1,35 @@
+{
+  "name": "wr_tutoringfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rolopens/WR_TutoringFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rolopens/WR_TutoringFinder/issues"
+  },
+  "homepage": "https://github.com/Rolopens/WR_TutoringFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "duration": "^0.2.2",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^5.9.2",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
+}
