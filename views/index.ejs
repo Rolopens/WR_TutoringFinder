@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+    	
+
+    	<!-- CSS Sheets -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/signin.css" rel="stylesheet"> 
     </head>
+
     <body>
-        Hello World!
+    <div id="particles-js"></div>
+    <form id="overlay" class="form-signin">
+	    <div class="text-center mb-4">
+		    <img class="logo" src="WRLogo.png" alt="" width="72" height="72">
+		    <h1 class="text-light h3 mb-3 font-weight-normal">WR Tutoring Services</h1>
+		    <p class="text-light">Please Log In</a></p>
+	  	</div>
+
+	  	<div class="form-label-group">
+	    	<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+	    	<label for="inputEmail">Email address</label>
+	  	</div>
+
+	  	<div class="form-label-group">
+	    	<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+	    	<label for="inputPassword">Password</label>
+	  	</div>
+
+	  	<!-- Not sure if we want to have this feature (Hassle on the backend) -->
+	  	<!-- <div class="checkbox mb-3">
+	    	<label>
+	      	<input type="checkbox" value="remember-me"> Remember me
+	    	</label>
+	  	</div> -->
+
+	  	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	  	<p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
+	</form>
+
+		<script src="js/particles.js"></script>
+    	<script src="js/app.js"></script>
     </body>
+
+    
 </html>
