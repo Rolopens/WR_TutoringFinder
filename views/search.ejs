@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <!-- CSS Sheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/login">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/inbox">Inbox <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item active">
+        <a class="nav-link" href="/search">Search <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/profile">Profile <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <a class="navbar-text" href="/logout">Log Out <span class="sr-only">(current)</span></a>
+  </div>
+</nav>
+
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Find Tutors!</h1>
+    </div>
+  </div>
+
+  <div class="container white-bg">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4 firstcol">
+        <h2>Search</h2>
+         <form class="form-inline my-2 my-lg-0 searchform">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search by Name" aria-label="Search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search by Subject" aria-label="Search">
+        <label for="location">Location</label>
+          <select class="custom-select d-block w-100" id="location" required>
+            <option value="">Sort By...</option>
+            <option value="manila">Location</option>
+            <option value="manila">Name</option>
+            <option value="manila">Subject</option>
+          </select>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Available Tutors</h2>
+        <div class="scrollable">
+          <div class="item">
+            <p><strong>Name: </strong>Alice</p> 
+            <p><strong>Subjects: </strong>Math, Science, English</p>
+            <p><strong>Location: </strong>Manila City</p>
+            <button class="btn btn-secondary my-2 my-sm-0">View Details &raquo;</button>
+          </div>
+          <div class="item">
+            <p><strong>Name: </strong>Bob</p> 
+            <p><strong>Subjects: </strong>Math, Science, English</p>
+            <p><strong>Location: </strong>Manila City</p>
+            <button class="btn btn-secondary my-2 my-sm-0">View Details &raquo;</button>
+          </div>
+          <div class="item">
+            <p><strong>Name: </strong>Charlie</p> 
+            <p><strong>Subjects: </strong>Math, Science, English</p>
+            <p><strong>Location: </strong>Manila City</p>
+            <button class="btn btn-secondary my-2 my-sm-0">View Details &raquo;</button>
+          </div>
+          <div class="item">
+            <p><strong>Name: </strong>Chris</p> 
+            <p><strong>Subjects: </strong>Math, Science, English</p>
+            <p><strong>Location: </strong>Manila City</p>
+            <button class="btn btn-secondary my-2 my-sm-0">View Details &raquo;</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <h2>Tutor Details</h2>
+        <p><strong>Name: </strong>Chris</p> 
+        <p><strong>Subjects: </strong>Math, Science, English</p>
+        <p><strong>Location: </strong>Manila City</p>
+        <p><strong>Educational Attainment: </strong>Master's Degree</p>
+        <button class="btn btn-outline-success my-2 my-sm-0">Send a Message</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+    </body>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+</html>

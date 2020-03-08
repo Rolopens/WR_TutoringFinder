@@ -2,15 +2,15 @@ const path = require("path");
 
 module.exports.controller = function (app) {
 
-    app.get('/login', function(req, res) {
-        if (!req.session.uid) res.redirect("/");
-        else res.redirect("/preacts");
-    })
+    // app.get('/login', function(req, res) {
+    //     // if (!req.session.uid) res.redirect("/");
+    //     // else res.redirect("/preacts");
+    // })
 
     app.post('/login', function(req, res) {
     	// put logic here on how to login
 
-    	res.render('homepageTutor')
+    	res.render('homepage')
 
 
         // if(req.session.uid != null) {
@@ -35,7 +35,39 @@ module.exports.controller = function (app) {
 
     app.get('/login', function(req, res) {
     	// put logic here on how to login
-    	res.render('homepageTutor')
+    	res.render('homepage')
     })
+
+    app.get('/profile', function(req, res) {
+        // put logic here on how to login
+        res.render('profile')
+    })
+
+    app.get('/inbox', function(req, res) {
+        // put logic here on how to login
+        res.render('inbox')
+    })
+
+    app.get('/search', function(req, res) {
+        // put logic here on how to login
+        res.render('search')
+    })
+
+    app.get('/logout', function(req, res) {
+        // put logic here on how to login
+        res.render('index')
+    })
+
+    app.get('/signup', function(req, res) {
+    	// put logic here on how to login
+    	res.render('signup')
+    })
+
+    app.get('/signupTutee', function(req, res) {
+        // put logic here on how to login
+        res.render('signupTutee')
+    })
+
+    
    
 }

@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+  <!-- CSS Sheets -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/signup.css" rel="stylesheet"> 
+  </head>
+
+  <body class="bg-light">
+<div id="particles-js"></div>
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h2>Application form</h2>
+    <p class="lead">Please put your correct details below</p>
+  </div>
+    <div class=" order-md-1 overlay">
+      <h4 class="mb-3">Profile Details</h4>
+      <!-- Fix this form Later on -->
+      <form class="needs-validation" method="post" action="/login">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="email">Email </label>
+          <input type="email" class="form-control" id="email" placeholder="tutor@example.com" required>
+            
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="location">Location</label>
+            <select class="custom-select d-block w-100" id="location" required>
+              <option value="">Choose...</option>
+              <option value="manila">Manila City</option>
+              <option value="Quezon">Quezon City</option>
+              <option value="Caloocan">Caloocan City</option>
+              <option value="Las Piñas">Las Piñas City</option>
+              <option value="Makati">Makati City</option>
+              <option value="Malabon">Malabon City</option>
+              <option value="Mandaluyong">Mandaluyong City</option>
+              <option value="Marikina">Marikina City</option>
+              <option value="Muntinlupa">Muntinlupa City</option>
+              <option value="Navotas">Navotas City</option>
+              <option value="Parañaque">Parañaque City</option>
+              <option value="Pasay">Pasay City</option>
+              <option value="Pasig">Pasig City</option>
+              <option value="San Juan">San Juan City</option>
+              <option value="Taguig">Taguig City</option>
+              <option value="Valenzuela">Valenzuela City</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="rate">Your Hourly Charge Rate </label>
+          <input type="number" class="form-control" id="rate" placeholder="800.00" required>
+          
+        </div>
+
+        <!-- <div class="mb-3">
+          <label for="username">Password</label>
+          <div class="input-group">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+          </div>
+        </div> -->
+
+        <div class="mb-3">
+            
+          </div>
+
+        
+        <hr class="mb-4">
+
+        <h4 class="mb-3">Skill Set</h4>
+
+        <div class="d-block my-3">
+          <label for="location">Education attainment</label>
+          <div class="custom-control custom-radio">
+            <input id="lessHigh" value="lessHigh" name="educationAttainment" type="radio" class="custom-control-input" checked required>
+            <label class="custom-control-label" for="lessHigh">Less than a High School Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="high" value="high" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="high">High School Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="someCollege" value="someCollege" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="someCollege">Some Associate or College Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="bachelor" value="bachelor" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="bachelor">Bachelor's Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="graduate" value="graduate" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="graduate">Master's Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="professional" value="professional" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="professional">Professional Degree</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="doctoral" value="doctoral" name="educationAttainment" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="doctoral">Doctoral Degree</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="skillDesc">Please check the subjects you are comfortable teaching</label>
+          <textarea class="form-control" id="skillDesc" rows="7"></textarea>
+        </div>
+       
+        <hr class="mb-4">
+        <button class="btn btn-secondary btn-lg btn-block" type="submit">Sign up</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-center text-small">
+    <p class="mb-1">&copy; Woodrose Tutoring Service</p>
+  </footer>
+</div>
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+      </body>
+</html>

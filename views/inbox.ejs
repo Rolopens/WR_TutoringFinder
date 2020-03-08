@@ -1,0 +1,79 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Inbox</title>
+    <!-- CSS Sheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/inbox.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/login">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/inbox">Inbox <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item active">
+        <a class="nav-link" href="/search">Search <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/profile">Profile <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <a class="navbar-text" href="/logout">Log Out <span class="sr-only">(current)</span></a>
+  </div>
+</nav>
+
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Messages</h1>
+    </div>
+  </div>
+
+  <div class="container white-bg">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4 secondcol">
+        <h2>Chat</h2>
+        <form class="form-inline my-2 my-lg-0 searchform">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search by Name" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="item">
+            <p><strong>Name: </strong>Chris</p> 
+            <p><strong>Location: </strong>Manila City</p>
+            <button class="btn btn-secondary my-2 my-sm-0">View Message &raquo;</button>
+          </div>
+      </div>
+
+      <div class="secondcol">
+        <h2>Chatbox</h2>
+        <p><strong>Name: </strong>Chris</p> 
+        <div class="messagebox">
+          <div class="message">Message 1</div>
+          <div class="message">Message 2</div>
+          <div class="message">Message 3</div>
+          <div class="message">Message 4</div>
+          <div class="message">Message 5</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+    </body>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+</html>

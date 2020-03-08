@@ -1,0 +1,95 @@
+body {
+  padding-top: 3.5rem;
+
+}
+
+html {
+	min-width: 100% !important;
+}
+
+ .bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+  		font-size: 3.5rem;
+}
+
+#particles-js{
+  position: inherit !important;
+  z-index:-1;
+}
+
+#particles-js canvas{
+  background-color: #ec5c53;
+  position: absolute !important;
+  z-index:-1;
+  
+}
+.searchform{
+	margin-bottom: 10px !important;
+}
+
+.container{
+	max-width: 100% !important;
+}
+
+.jumbotron {
+	background: rgba(0, 0, 140, 0.1);
+	margin-bottom: 0;
+}
+
+.white-bg{
+	background-color: white;
+	max-width: 100% !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	padding-top: 10px;
+	display: flex !important;
+	justify-content: center !important;
+
+}
+
+main {
+	margin-bottom: 0px !important;
+	width: 100% !important;
+  	height: 100% !important;
+}
+
+.btn{
+	margin-top: 10px !important;
+}
+
+div.item .btn{
+	margin-top: 3px !important;
+}
+
+.firstcol{
+	margin-bottom: 100px
+}
+
+.item{
+	border: 2px solid #e24a33;
+	border-radius: 15px;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 3px;
+	/*margin: 3px 3px 3px 3px ;*/
+}
+
+.item p{
+	margin-bottom: 2px !important;
+}
+
+.scrollable{
+	overflow:auto; height:520px;
+}
+
+.row{
+	min-width: 100% !important;
+}

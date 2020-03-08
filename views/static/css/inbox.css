@@ -21,10 +21,6 @@ html {
   		font-size: 3.5rem;
 }
 
-.row{
-	min-width: 100% !important;
-}
-
 #particles-js{
   /*width: 100% !important;*/
   /*height: 20% !important;*/
@@ -90,52 +86,35 @@ main {
   	height: 100% !important;
 }
 
-.incoming{
-	border: 2px solid #99dfff;
-	border-radius: 15px;
-	padding: 5px 5px 5px 5px;
-	margin-bottom: 3px;
-	/*margin: 3px 3px 3px 3px ;*/
+.row{
+	min-width: 100% !important;
+	display: flex !important; 
+	flex-flow: row !important;
+	/*flex-flow: 1 !important;*/
+	height:520px !important;
 }
 
-.upcoming{
+.secondCol{
+	min-width: 100% !important;
+	flex-grow: 1 !important;
+	flex: 1 !important;
+	
+}
+
+.item{
 	border: 2px solid #e24a33;
 	border-radius: 15px;
 	padding: 5px 5px 5px 5px;
 	margin-bottom: 3px;
+	margin-top: 3px;
 	/*margin: 3px 3px 3px 3px ;*/
 }
 
-.finished{
-	border: 2px solid #717f64;
-	border-radius: 15px;
-	padding: 5px 5px 5px 5px;
-	margin-bottom: 3px;
-	/*margin: 3px 3px 3px 3px ;*/
-}
-
-.scrollable{
-	overflow:auto; height:420px;
-}
-
-.finished p{
+.item p{
 	margin-bottom: 2px !important;
 }
 
-.incoming p{
-	margin-bottom: 2px !important;
-}
-
-.upcoming p{
-	margin-bottom: 2px !important;
-}
-
-.pbuttons{
-	margin-top: 5px;
-	/*float: right;*/
-	display: flex; justify-content: flex-end
-}
-
-.btn{
-	margin-right: 3px !important;
+.message{
+	min-width: 100% !important;
+	border-bottom: 2px solid gray;
 }
